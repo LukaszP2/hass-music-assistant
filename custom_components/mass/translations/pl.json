@@ -23,43 +23,43 @@
       }
     },
     "error": {
-      "directory_not_exists": "Directory does not exist or not accessible"
+      "directory_not_exists": "Katalog nie istnieje albo nie jest dostępny"
     }
   },
   "options": {
     "step": {
       "init": {
-        "title": "Configure Music Assistant",
-        "description": "Configure which Home Assistant media players you would like to use with Music Assistant.",
+        "title": "Konfiguracja Music Assistant",
+        "description": "Skoniguruj które odtwarzacze medialne z Home Assistant chciałbyś używaż z Music Assistant.",
         "data": {
-          "player_entities": "Player entities",
-          "hide_source_players": "Hide source players in the Home Assistant UI.",
-          "create_mass_players": "Create mediaplayers for Music Assistant players in Home Assistant."
+          "player_entities": "Multimedialne encje",
+          "hide_source_players": "Ukryj źródła multimedialne w Home Assistant UI.",
+          "create_mass_players": "Stwórz multimedialne encje Music Assistant w Home Assistant."
         }
       },
       "music": {
-        "title": "Configure Music Assistant",
-        "description": "Configure which music providers you want to enable. For each enabled music provider, enter your credentials below.",
+        "title": "Konfiguracja Music Assistant",
+        "description": "Skonfiguru z jakich dostawców chciałbyś skorzystać. Dla każdego z nich wyełnij dane poniżej.",
         "data": {
-          "spotify_enabled": "Enable Spotify music provider",
-          "spotify_username": "Username for Spotify",
-          "spotify_password": "Password for Spotify",
-          "qobuz_enabled": "Enable Qobuz music provider",
-          "qobuz_username": "Username for Qobuz",
-          "qobuz_password": "Password for Qobuz",
-          "tunein_enabled": "Enable Tune-In Radio music provider",
-          "tunein_username": "Username for Tune-In Radio",
-          "filesystem_enabled": "Enable filesystem provider",
-          "filesystem_directory": "Directory on disk to your music files.",
-          "playlists_directory": "Directory on disk to your playlists (m3u) files (optional)."
+          "spotify_enabled": "Wlącz Spotify",
+          "spotify_username": "Użytkownik Spotify",
+          "spotify_password": "Hasło Spotify",
+          "qobuz_enabled": "Włącz Qobuz",
+          "qobuz_username": "Użytkownik Qobuz",
+          "qobuz_password": "Hasło Qobuz",
+          "tunein_enabled": "Włącz Tune-In Radio",
+          "tunein_username": "Użytkownik Tune-In Radio",
+          "filesystem_enabled": "Włącz dostęp do plików",
+          "filesystem_directory": "Katalog na dysku z plikami muzycznymi.",
+          "playlists_directory": "Katalog na dysku listami (m3u) (opcjonalne)."
         },
         "data_description": {
           "filesystem_directory": "Specify the full path on disk where your media files are stored (e.g. /media). Note that Home Assistant must have access to this location."
         }
       },
       "adv": {
-        "title": "Configure Music Assistant",
-        "description": "Configure advanced options for Music Assistant.",
+        "title": "Konfiguracja Music Assistant",
+        "description": "Skonfiguruj zaawansowane opcje Music Assistant.",
         "data": {
           "mute_power_players": "Use mute as power control for these players."
         },
@@ -69,29 +69,29 @@
       }
     },
     "error": {
-      "directory_not_exists": "Directory does not exist or not accessible"
+      "directory_not_exists": "Katalog nie istnieje albo nie jest dostępny"
     }
   },
   "frontend": {
     "mass": "Music Assistant",
-    "library": "Library",
-    "home": "Home",
-    "artists": "Artists",
-    "albums": "Albums",
-    "tracks": "Tracks",
-    "playlists": "Playlists",
-    "artist": "Artist",
+    "library": "Biblioteka",
+    "home": "Start",
+    "artists": "Wykonawcy",
+    "albums": "Albumy",
+    "tracks": "Utwory",
+    "playlists": "Listy",
+    "artist": "Wykonawca",
     "album": "Album",
-    "track": "Track",
-    "playlist": "Playlist",
+    "track": "Utwór",
+    "playlist": "Lista",
     "playlist_tracks": "Playlist tracks",
     "radios": "Radio",
-    "search": "Search",
-    "settings": "Settings",
-    "queue": "Queue",
+    "search": "Szukaj",
+    "settings": "Ustawienia",
+    "queue": "Kolejka",
     "tasks": "Tasks",
-    "artist_toptracks": "Top tracks",
-    "artist_albums": "Albums",
+    "artist_toptracks": "Najlepsze utwory",
+    "artist_albums": "Albumy",
     "album_tracks": "Album tracks",
     "album_versions": "Versions",
     "track_versions": "Versions",
@@ -102,28 +102,28 @@
     "remove_playlist": "Remove from playlist",
     "no_player": "No player selected",
     "reboot_required": "A reboot is required to activate the new settings!",
-    "sort_name": "Sort by name",
-    "sort_artist": "Sort by artist name",
-    "sort_album": "Sort by album name",
-    "sort_date": "Sort by date",
+    "sort_name": "Sortuj po nazwie",
+    "sort_artist": "Sortuj po wykonawcy",
+    "sort_album": "Sortuj po albumie",
+    "sort_date": "Sortuj po dacie",
     "sort_position": "Sort by position",
     "sort_track_number": "Sort by track number",
     "sort_default": "Default sorting",
     "refresh_item": "Refresh item",
-    "items_total": "{0} total item(s)",
-    "items_selected": "{0} item(s) selected",
+    "items_total": "Elementów: {0}",
+    "items_selected": "Zazanczonych elementów: {0}",
     "players": "Players",
-    "play": "Play",
+    "play": "Odtwarzaj",
     "play_on": "Play on:",
-    "play_now": "Play Now",
-    "play_next": "Play Next",
-    "add_queue": "Add to Queue",
+    "play_now": "Odtwórz teraz",
+    "play_next": "Odtwórz jako następne",
+    "add_queue": "Dodaj do kolejki",
     "queue_clear": "Clear all items in queue",
-    "show_info": "Show info",
-    "queue_next_items": "Next items",
-    "queue_previous_items": "Played items",
-    "queue_move_up": "Move up",
-    "queue_move_down": "Move down",
+    "show_info": "Pokaż informacje",
+    "queue_next_items": "Następne utwory",
+    "queue_previous_items": "Odtworzone utwory",
+    "queue_move_up": "Przenies do góry",
+    "queue_move_down": "Przenieś na dół",
     "queue_options": "Queue options",
     "read_more": "read more",
     "stream_details": "Streamdetails",
