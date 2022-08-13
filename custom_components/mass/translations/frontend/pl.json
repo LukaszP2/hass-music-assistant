@@ -64,7 +64,7 @@
   "repeat": "Powtarzaj",
   "volume_normalization": "Normalizacja głośności",
   "volume_normalization_target": "Volume normalization target volume",
-    "volume_normalization_lufs": "{0} LUFS",
+  "volume_normalization_lufs": "{0} LUFS",
   "crossfade": "Crossfade",
   "crossfade_duration": "Czas trwania Crossfade",
   "crossfade_seconds": "{0} sekund",
@@ -114,7 +114,7 @@
   "jobs_running": "Jest {0} uruchomionych zadań.",
   "actions": "Akcje",
   "no_content": "Nie znaleziono pozycji.",
-  "no_content_sync_running": "Pozycje jeszcze nie dostępne. Proszę poczekaj na synchnronizację biblioteki.",
+  "no_content_filter": "Nie znaleziono wyniów dla wybranych filtrów i warunków..",
   "details": "Szczegóły",
   "explicit": "Explicit",
   "providers": {
