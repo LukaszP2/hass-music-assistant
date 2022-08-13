@@ -60,8 +60,13 @@
   "shuffle": "Losowo",
   "repeat": "Powtarzaj",
   "volume_normalization": "Normalizacja głośności",
-  "volume_normalization_lufs": "{0} LUFS",
+  "shuffle": "Losowo",
+  "repeat": "Powtarzaj",
+  "volume_normalization": "Volume normalization",
+  "volume_normalization_target": "Volume normalization target volume",
+    "volume_normalization_lufs": "{0} LUFS",
   "crossfade": "Crossfade",
+  "crossfade_duration": "Czas trwania Crossfade",
   "crossfade_seconds": "{0} sekund",
   "crossfade_enabled": "Crossfade aktywny",
   "stream_type": "Kodek/typ do użycia w strumieniu audio do odtwarzacza",
@@ -145,4 +150,6 @@
     "album_artist_filter": "Przełącz filtr wykonawcy albumu"
   },
   "create_playlist": "Utwórz nową playlistę na {0}"
+  "queue_radio_enabled": "Tryb radiowy aktywny",
+  "queue_radio_based_on": "Kolejka jest automatycznie wypełniana utworami na podstawie {0}:"
 }
